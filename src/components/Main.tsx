@@ -27,10 +27,10 @@ const Main = () => (
                             <li>HTML/CSS</li>
                             <li>React</li>
                             <li>JavaScript</li>
+                            <li>TypeScript</li>
                             <li>Tailwind CSS</li>
-                            <li>GitHub</li>
                             <li>Linux</li>
-                            <li>FireBase</li>
+                            <li>Java</li>
                         </ul>
                     </div>
                 </div>
@@ -40,9 +40,7 @@ const Main = () => (
                         <ul>
                             <li>C++</li>
                             <li>Unreal Engine 5</li>
-                            <li>TypeScript</li>
                             <li>React Native</li>
-                            <li>Java</li>
                             <li>Python</li>
                             <li>AWS</li>
                         </ul>
@@ -54,11 +52,11 @@ const Main = () => (
         <div className='-mt-36 w-[840px] text-left bg-[#262626] rounded-md p-8 pt-8 pb-8'>
             <h2 className='text-3xl font-bold'>Professional Summary</h2>
             <p className='mt-2 indent-4'>
-                Enthusiastic Web Developer eager to contribute to team 
+                Enthusiastic Web Developer eager to contribute to team
                 success through hard work, attention to detail and
-                excellent organizational skills. With a clear understanding of 
-                web development and experience with JavaScript React, 
-                GitHub and more. Motivated to learn, grow and excel in 
+                excellent organizational skills. With a clear understanding of
+                web development and experience with JavaScript React,
+                Java and more. Motivated to learn, grow and excel in
                 web development.
             </p>
         </div>
@@ -66,8 +64,28 @@ const Main = () => (
         <div className='-mt-24 w-[840px] text-left bg-[#262626] rounded-md p-8'>
             <h2 className='text-3xl font-bold'>Work Experience</h2>
             <div className='mt-6 mb-2 flex justify-between'>
+                <p className='font-bold'>Front-End Developer</p>
+                <p className='font-bold'>Dec 2022 - Aug 2023</p>
+            </div>
+            <div>
+                <p className='font-bold italic'>Carpages</p>
+            </div>
+            <div>
+                <ul className='mt-2 list-disc'>
+                    <li>
+                        Developed and maintained user interfaces for websites and web applications.
+                    </li>
+                    <li>
+                        Wrote clean, efficient, and maintainable HTML, CSS, and JavaScript code.
+                    </li>
+                    <li>
+                        Ensured cross-browser compatibility and responsive design.
+                    </li>
+                </ul>
+            </div>
+            <div className='mt-6 mb-2 flex justify-between'>
                 <p className='font-bold'>Financial Services Representative</p>
-                <p className='font-bold'>Feb 2022 - Present</p>
+                <p className='font-bold'>Feb 2022 - Dec 2022</p>
             </div>
             <div>
                 <p className='font-bold italic'>CIBC</p>
@@ -75,12 +93,12 @@ const Main = () => (
             <div>
                 <ul className='mt-2 list-disc'>
                     <li>
-                        Worked with clients to develop financial planning 
+                        Worked with clients to develop financial planning
                         strategies and solutions through evaluation of finances.
                     </li>
                     <li>
-                        Built and deepened productive relationships with prospective 
-                        and competitive customers to drive sustained growth. 
+                        Built and deepened productive relationships with prospective
+                        and competitive customers to drive sustained growth.
                     </li>
                 </ul>
             </div>
@@ -94,11 +112,11 @@ const Main = () => (
             <div>
                 <ul className='mt-2 list-disc'>
                     <li>
-                        Quickly learned new skills and applied them to daily tasks, 
+                        Quickly learned new skills and applied them to daily tasks,
                         improving efficiency and productivity.
                     </li>
                     <li>
-                        Worked flexible hours; night, weekend, and holiday shifts. 
+                        Worked flexible hours; night, weekend, and holiday shifts.
                     </li>
                 </ul>
             </div>
@@ -107,13 +125,18 @@ const Main = () => (
         <div className='mt-4 w-[840px] text-left bg-[#262626] rounded-md p-8'>
             <h2 className='text-3xl font-bold'>Education</h2>
             <div className='mt-6 flex justify-between'>
+                <p className='font-bold'>Bachelors Degree Software Engineering</p>
+                <p>September 2024</p>
+            </div>
+            <p>Western Governors University</p>
+            <div className='mt-6 flex justify-between'>
                 <p className='font-bold'>Advanced Diploma in Finance</p>
-                <p>September 2020 - April 2022</p>
+                <p>April 2022</p>
             </div>
             <p>Fanshawe College</p>
             <div className='mt-6 flex justify-between'>
                 <p className='font-bold'>Diploma in Business Marketing</p>
-                <p>September 2017 - April 2019</p>
+                <p>April 2019</p>
             </div>
             <p>Fanshawe College</p>
         </div>
