@@ -21,28 +21,28 @@ const Main = () => (
             {/* Skills & Learning */}
             <div className='w-[840px] grid grid-cols-2'>
                 <div>
-                    <h2 className='text-3xl font-bold'>Skills</h2>
+                    <h2 className='text-3xl font-bold'>Languages</h2>
                     <div className='mt-6'>
                         <ul>
-                            <li>HTML/CSS</li>
-                            <li>React</li>
+                            <li>HTML & CSS</li>
                             <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>Tailwind CSS</li>
-                            <li>Linux</li>
+                            <li>C#</li>
+                            <li>Rust</li>
                             <li>Java</li>
                         </ul>
                     </div>
                 </div>
                 <div>
-                    <h2 className='text-3xl font-bold'>Learning</h2>
+                    <h2 className='text-3xl font-bold'>Technologies</h2>
                     <div className='mt-6'>
                         <ul>
-                            <li>C++</li>
-                            <li>Unreal Engine 5</li>
-                            <li>React Native</li>
-                            <li>Python</li>
+                            <li>React</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind CSS</li>
+                            <li>.NET</li>
+                            <li>Blazor</li>
                             <li>AWS</li>
+                            <li>Docker</li>
                         </ul>
                     </div>
                 </div>
