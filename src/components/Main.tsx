@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => (
     // Main Container
-    <div className='grid grid-rows-6 text-center items-center justify-center'>
+    <div className='grid gap-8 text-center items-center justify-center'>
         {/* Heading Container */}
         <div>
             <h1 className='text-5xl mb-2 font-bold'>Troy Parsons</h1>
@@ -10,7 +10,7 @@ const Main = () => (
             <p>(519) 520-1171 - <a href="mailto:troyalparsons@gmail.com">troyalparsons@gmail.com</a></p>
         </div>
         {/* Portfolio Section */}
-        <div className='-mt-28 flex justify-between w-[840px] -mb-12 bg-[#262626] rounded-md p-4 pt-8 pb-8'>
+        <div className='flex justify-between w-[840px] bg-[#262626] rounded-md p-4 pt-8 pb-8'>
             <div className='ml-12 w-64 text-left'>
                 <h2 className='text-3xl font-bold'>Portfolio</h2>
                 <ul className='mt-6'>
@@ -49,7 +49,7 @@ const Main = () => (
             </div>
         </div>
         {/* Professional Summary */}
-        <div className='-mt-36 w-[840px] text-left bg-[#262626] rounded-md p-8 pt-8 pb-8'>
+        <div className='w-[840px] text-left bg-[#262626] rounded-md p-8 pt-8 pb-8'>
             <h2 className='text-3xl font-bold'>Professional Summary</h2>
             <p className='mt-2 indent-4'>
                 Enthusiastic Web Developer eager to contribute to team
@@ -61,7 +61,7 @@ const Main = () => (
             </p>
         </div>
         {/* Work Experience */}
-        <div className='-mt-24 w-[840px] text-left bg-[#262626] rounded-md p-8'>
+        <div className='w-[840px] text-left bg-[#262626] rounded-md p-8'>
             <h2 className='text-3xl font-bold'>Work Experience</h2>
             <div className='mt-6 mb-2 flex justify-between'>
                 <p className='font-bold'>Front-End Developer</p>
@@ -122,7 +122,7 @@ const Main = () => (
             </div>
         </div>
         {/* Education */}
-        <div className='mt-4 w-[840px] text-left bg-[#262626] rounded-md p-8'>
+        <div className='w-[840px] text-left bg-[#262626] rounded-md p-8'>
             <h2 className='text-3xl font-bold'>Education</h2>
             <div className='mt-6 flex justify-between'>
                 <p className='font-bold'>Bachelors Degree Software Engineering</p>
