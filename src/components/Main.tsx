@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => (
     // Main Container
-    <div className='grid gap-8 text-center items-center justify-center'>
+    <div className='grid gap-8 mt-12 text-center items-center justify-center'>
         {/* Heading Container */}
         <div>
             <h1 className='text-5xl mb-2 font-bold'>Troy Parsons</h1>
